@@ -7,7 +7,7 @@ export default function createAdapter(): GunGraphAdapter {
     parseInt(process.env.GUN_LMDB_MAP_SIZE || '', 0) || 1024 ** 3;
 
   if (LMDB_PATH) {
-    return require('@chaingun/lmdb-adapter').createAdapter({
+    return require('@chaingun/lmdb-adapter').createGraphAdapter({
       mapSize: LMDB_MAP_SIZE,
       path: LMDB_PATH
     });
