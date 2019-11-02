@@ -12,7 +12,7 @@ export default function createAdapter(): GunGraphAdapter {
       path: LMDB_PATH
     });
   } else if (HTTP_URL) {
-    return require('@chaingun/http-adapter').createAdapter(HTTP_URL);
+    return require('@chaingun/http-adapter').createGraphAdapter(HTTP_URL);
   }
 
   throw new Error("Can't find Gun Adapter Config");
