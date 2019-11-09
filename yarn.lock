@@ -298,10 +298,10 @@
   dependencies:
     "@chaingun/types" "^0.0.1"
 
-"@chaingun/http-adapter@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@chaingun/http-adapter/-/http-adapter-0.3.0.tgz#c52b06fc5953c948d1f40944620c84830a640b1a"
-  integrity sha512-2wC9FgnPxgGsbBCcQzoYm+OqVMyCMduDRgCYeZFvNpoQQcvrG2TG9pEpV0BhXZ4TgGyVbizA7PZ6YdImcohWVg==
+"@chaingun/http-adapter@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@chaingun/http-adapter/-/http-adapter-0.4.0.tgz#b8beccbaedc4cc89d1114c78e810270de0278ede"
+  integrity sha512-sww0kQhss4HVhcYh2I28xweLjO1Xg4xN9hhk0moclPzpV2/+B8SH6DPe3FW32uhaGCrSro6M+rPsx+OYS/OFXw==
   dependencies:
     "@chaingun/types" "^0.0.3"
     "@types/isomorphic-fetch" "^0.0.35"
