@@ -1,6 +1,6 @@
 {
   "name": "@chaingun/node-adapters",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Meta-Package for selecting adapter based on env",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
@@ -53,6 +53,7 @@
   "dependencies": {
     "@chaingun/http-adapter": "^0.4.1",
     "@chaingun/lmdb-adapter": "^0.0.7",
+    "@chaingun/memory-adapter": "^0.0.3",
     "@chaingun/types": "^0.0.3",
     "@types/node": "^12.11.7"
   },
@@ -90,7 +91,8 @@
     }
   },
   "prettier": {
-    "singleQuote": true
+    "singleQuote": true,
+    "semi": false
   },
   "nyc": {
     "extends": "@istanbuljs/nyc-config-typescript",
