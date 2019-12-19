@@ -305,22 +305,22 @@
   dependencies:
     "@chaingun/types" "^0.0.3"
 
-"@chaingun/http-adapter@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@chaingun/http-adapter/-/http-adapter-0.4.1.tgz#a12b5548d3d7225ff067bf888b95646e4ed0403a"
-  integrity sha512-VRAWZsfwoeJ+YswHgcFXgG5FHoRlJdoMiSxt1eIq2Cb3eMeracowzkftrGDC4OR0en07kZWfAz20TyOmVR1NeA==
+"@chaingun/http-adapter@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@chaingun/http-adapter/-/http-adapter-0.5.0.tgz#ec4a1a6fe301a874e9b9035e0f04215e1eccf013"
+  integrity sha512-2AfY83ziD+SbxMcHSmU4QgC96lRXwiRuoK90nEbQQL1rVhjtSwBD41MoU0tWHpTPz2FEYlIYt3mkxmvnnEaTPw==
   dependencies:
-    "@chaingun/types" "^0.0.3"
+    "@chaingun/types" "^0.0.4"
     "@types/isomorphic-fetch" "^0.0.35"
     isomorphic-fetch "^2.2.1"
 
-"@chaingun/lmdb-adapter@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@chaingun/lmdb-adapter/-/lmdb-adapter-0.0.8.tgz#bcd71173efd8a1bb36fa77929c35712567f81a15"
-  integrity sha512-FTsB45z242nw4qqUvsiLAvJ5nqncZYgZDuASfCQhh4PMbU+dsmsVpSqECsTTt+2WxygGVfJy1gjWl6ygJB6v0A==
+"@chaingun/lmdb-adapter@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@chaingun/lmdb-adapter/-/lmdb-adapter-0.0.9.tgz#2873aeace60a2fa72904cb046cb4e90df39a6061"
+  integrity sha512-yscYpK4y9VKydTsXuanH3nwdm7JM+eNAKZV5Nip01bwN0jtMRgiGHxxAHk70o2ftE2uWi0BkqAnhE7oppXoDxg==
   dependencies:
     "@chaingun/crdt" "^0.0.1"
-    "@chaingun/types" "^0.0.3"
+    "@chaingun/types" "^0.0.4"
     node-lmdb "^0.7.0"
 
 "@chaingun/memory-adapter@^0.0.3":
@@ -342,6 +342,11 @@
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@chaingun/types/-/types-0.0.3.tgz#2f0968932c827528b8815ce4b2886661f7d94e06"
   integrity sha512-0rIMrcK0BGiiIzMhlhNxSiqGwyxWhgbGyUdycp6cmqwQrhFd6cxBVUtGkdWsGULrHUye26TLeKfbGXRvP8TXCQ==
+
+"@chaingun/types@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@chaingun/types/-/types-0.0.4.tgz#825ab52e233101bb3246351fea4042b017dc8b87"
+  integrity sha512-IHL4/kwAEogAUrGUghAKpCbeaK3LYRtZUPsb8Ip0ByAZ9wiTws8DnmW347fe+CNPIEPfK9TguGYVLrdXT1DHiw==
 
 "@concordance/react@^2.0.0":
   version "2.0.0"
