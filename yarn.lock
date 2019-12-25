@@ -314,10 +314,10 @@
     "@types/isomorphic-fetch" "^0.0.35"
     isomorphic-fetch "^2.2.1"
 
-"@chaingun/lmdb-adapter@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@chaingun/lmdb-adapter/-/lmdb-adapter-0.0.11.tgz#7882753a269781ad41135b10b5dcb96041ec84ed"
-  integrity sha512-v7ck08iKYyZQGOumAOimbmzqNmlWzNQfoaP85YdNzu0qTboubrtF4snD4YxuqBzCJx0iebZC7OKy4L/+Z7P3XQ==
+"@chaingun/lmdb-adapter@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@chaingun/lmdb-adapter/-/lmdb-adapter-0.0.12.tgz#a840e3c407a5af46be7584145e40c097d5f54d2a"
+  integrity sha512-5CHaXG3O/SDHtQVPdGco5lfoURs12MmC7bBBTs5ytw+Kq2Nh/qVFhdT4nJVz7JF4zu/0LN02e2h41v1wggoYSg==
   dependencies:
     "@chaingun/crdt" "^0.0.1"
     "@chaingun/types" "^0.0.4"
