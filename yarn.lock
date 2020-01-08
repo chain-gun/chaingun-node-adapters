@@ -314,13 +314,13 @@
     "@types/isomorphic-fetch" "^0.0.35"
     isomorphic-fetch "^2.2.1"
 
-"@chaingun/lmdb-adapter@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@chaingun/lmdb-adapter/-/lmdb-adapter-0.0.15.tgz#6315c25f7a95b645973ae48b224bc21ee3a2721b"
-  integrity sha512-G8SXViwUrHvlNO8KNQRZEpMOTLMeY/Wjpj0wK/u+x5L3CBJpVLY0B4H0XloJx0OmmifDZ5I6X6Ad2avp+YPbLQ==
+"@chaingun/lmdb-adapter@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@chaingun/lmdb-adapter/-/lmdb-adapter-0.0.16.tgz#5a3a2e5125e3573a737064c79161ada128ea8d63"
+  integrity sha512-thxPdH2GSVveC3Pcr6BPNBOaA6G9uEOt850/yKFLNZWJmCKgUqpXsIh/S8pe9UY8G+cARqWvuiLM6v2RqvQnUQ==
   dependencies:
     "@chaingun/crdt" "^0.0.1"
-    "@chaingun/types" "^0.0.5"
+    "@chaingun/types" "^0.0.6"
     node-lmdb "^0.7.0"
 
 "@chaingun/memory-adapter@^0.0.3":
@@ -347,6 +347,11 @@
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/@chaingun/types/-/types-0.0.5.tgz#d61b59a8d4a25dec2ba20c66ed1ee1aefb7c889f"
   integrity sha512-T0lefPyxqVWdMsOFKfld5hEPwf3UyuWBNGsmCU45dygrjBmo2pibVLE+DkwQUIpafOE/vg434p+aqs1DkCHIDQ==
+
+"@chaingun/types@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@chaingun/types/-/types-0.0.6.tgz#cc8d45238cf44768843ca7fcb1aaad1e8289bd2b"
+  integrity sha512-VUKhCXHxDb5TMtV+rTFvXrNFRq9yZI1uqCt69UC09kgJfhJQPgtKsCx2kPWABGO8K5bErztmgMmcLPY/6GUp/g==
 
 "@concordance/react@^2.0.0":
   version "2.0.0"
