@@ -321,10 +321,10 @@
     eventsource "^1.0.7"
     isomorphic-fetch "^2.2.1"
 
-"@chaingun/lmdb-adapter@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@chaingun/lmdb-adapter/-/lmdb-adapter-0.1.1.tgz#2ad08a94055d25b5c7fe2a5a0481d716f70bb403"
-  integrity sha512-Yh6AHNo6L3ViO0iqoyvii3b3rBzssqxCynZ9vTii34934eO00mvN6XeOJlWb7+bUFa1nHNNJoFnKw2X1gYiyYg==
+"@chaingun/lmdb-adapter@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@chaingun/lmdb-adapter/-/lmdb-adapter-0.1.2.tgz#3b46fde6a88157686f9c3d839f221a8d89c980e1"
+  integrity sha512-KPOYCJi499ggqrZ96ApQdm/4HLeKcLj7InnvYuJP9MiGFJ/KZxMLH5zdBH26fw8Gc/hPn8IBtxw45wBTDNXcaQ==
   dependencies:
     "@chaingun/control-flow" "^0.1.0"
     "@chaingun/crdt" "^0.0.1"
